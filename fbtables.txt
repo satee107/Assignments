@@ -1,0 +1,52 @@
+fbuser:
+
+id- int = primarykey autoincrement
+fullname-varchar
+email-varchar-unique
+password-varchar
+dob-date
+gender-varchar
+image - 
+
+
+fbpost
+
+postid - int - primarykey-autoincrement
+description-varchar
+image - 
+pdatetime - 
+likes-int
+comments-int
+postedby(email)-varchar
+
+fblikes
+
+id
+email
+postid
+
+comments
+
+id
+email
+postid
+comment
+
+Tech:
+html
+css-bootstrap
+javascript
+
+jsp/servlets
+jdbc
+mysql
+
+
+
+
+
+
+
+
+
+
